@@ -1,0 +1,155 @@
+body { 
+    background:#5e4e3b4b; 
+    color:#180e02; 
+    overflow-x: hidden; 
+    font-family: Helvetica, sans-serif;
+    padding:0; 
+    margin:0; 
+    justify-content: center;
+	align-items: center;
+    display: flex;
+    fff9e8
+}
+
+main { 
+    padding: 65px; 
+    float:left; 
+    max-width:1500px;
+    min-height: 100vh;
+    width: 90%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    flex: 1;
+}
+
+main > h1 { 
+    font-size:40px;
+    text-align: left;
+    color: #180e02f3;
+
+}
+
+main > h2 { 
+    font-size:30px;
+    color: #180e02;
+}
+
+main > h3 { 
+    font-size:20px; 
+    color: #180e02;
+}
+
+main > h4 { 
+    font-size:35px; 
+    color: #180e02;
+}
+
+main p { 
+    line-height: 25px; 
+    font-size:16px; 
+    margin-top: 0px; 
+}
+
+img  {
+    max-width: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+table td { 
+    vertical-align:top;
+    padding:2.5px 5px;
+    text-align:left; 
+    border: 1px solid black 
+}
+
+table {border: solid black}
+
+nav {
+    background-color: #180e02f3;
+    overflow: hidden;
+    text-align: left;
+  }
+  
+nav ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    display: inline-block; 
+  }
+  
+nav ul li {
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 0;
+  }
+  
+nav ul li a {
+    display: block;
+    color: #fff4e8;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+nav ul li a:hover {
+    background-color: #fff9e880;
+    color: black;
+}
+
+p {
+    text-align: justify;
+}
+
+a{
+    color: #855000;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: serif;
+}
+
+footer p {
+    margin: 0 auto; /* Añadir esta línea */
+    text-align: center;
+    font-family: serif;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    nav.expand ul {
+        display: block;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+
+    nav ul li a {
+        padding: 10px;
+    }
+
+    nav {
+        text-align: center;
+    }
+    
+     main > h1 { 
+        text-align: center;
+     }
+
+     img {
+        max-width: 100%;
+     }
+}
