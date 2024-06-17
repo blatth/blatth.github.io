@@ -1,14 +1,18 @@
 body { 
-    background:#5e4e3b4b; 
+    background:rgb(0, 0, 0); 
     color:#180e02; 
     overflow-x: hidden; 
-    font-family: Helvetica, sans-serif;
+    font-family: Verdana, sans-serif;
     padding:0; 
     margin:0; 
     justify-content: center;
 	align-items: center;
     display: flex;
-    fff9e8
+    
+}
+
+body ul li{
+    color:#ffffffce;
 }
 
 main { 
@@ -23,25 +27,25 @@ main {
 }
 
 main > h1 { 
-    font-size:40px;
+    font-size:35px;
     text-align: left;
-    color: #180e02f3;
+    color: #ffffffce;
 
 }
 
 main > h2 { 
     font-size:30px;
-    color: #180e02;
+    color: #ffffffce;
 }
 
 main > h3 { 
     font-size:20px; 
-    color: #180e02;
+    color: #ffffffce;
 }
 
 main > h4 { 
-    font-size:35px; 
-    color: #180e02;
+    font-size:15px; 
+    color: #ffffffce;
 }
 
 main p { 
@@ -68,7 +72,7 @@ table td {
 table {border: solid black}
 
 nav {
-    background-color: #180e02f3;
+    background-color: #3532308e;
     overflow: hidden;
     text-align: left;
   }
@@ -90,7 +94,7 @@ nav ul li {
   
 nav ul li a {
     display: block;
-    color: #fff4e8;
+    color: #fefefedd;
     padding: 14px 16px;
     text-decoration: none;
   }
@@ -101,11 +105,12 @@ nav ul li a:hover {
 }
 
 p {
+    color: #ffffffce;
     text-align: justify;
 }
 
 a{
-    color: #855000;
+    color: #fff3ea8e;
 }
 
 footer {
@@ -154,11 +159,7 @@ footer p {
      }
 }
 
-    .imgContainer {
-    float:left;
-}
-
 .cita {
-    background-color: #5e4e3b4b;
+    background-color: #ffffff6d;
     text-align: center;
   }
